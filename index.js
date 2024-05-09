@@ -121,7 +121,7 @@ app.get("/leaderboard", (re, res) => {
 });
 
 app.get("/discord", (req, res) => {
-  res.status(200).json({ url: process.env.DISCORD_INVITE });
+  res.status(200).json({ url: "https://discord.com/invite/5EgppWavgT" });
 });
 app.get("/vapidkey", (req, res) => {
   res.status(200).json({ key: process.env.PUBLIC_VAPID_KEY });
